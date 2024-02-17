@@ -1,8 +1,8 @@
 
 const links = [
-    { href: "/", text: "Home" },
-    { href: "/projects", text: "Projects" },
-    { href: "/about", text: "About" },
+    { href: "#/", text: "Home" },
+    { href: "#/projects", text: "Projects" },
+    { href: "#/about", text: "About" },
 ];
 
 const NavigationLinks = () => (
