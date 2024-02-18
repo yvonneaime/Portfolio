@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import './Gallery.css';
 
 const artworks = [
     // Array of your artwork objects
@@ -73,20 +74,14 @@ const Gallery = () => {
                     </div>
                 ))}
             </div>
-            {/* Modal for expanded image */}
             {selectedImg && (
-                <div className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm flex justify-center items-center p-4">
-                    <FaTimes className="absolute top-10 right-10 text-white text-3xl cursor-pointer" onClick={closeModal} />
+            <div className="modalOverlay">
+                <FaTimes className="closeButton" onClick={closeModal} />                    
                     <FaChevronLeft className={`absolute left-20 text-white text-3xl cursor-pointer ${selectedIdx <= 0 ? 'hidden' : ''}`} onClick={goToPrevious} />
                     <FaChevronRight className={`absolute right-20 text-white text-3xl cursor-pointer ${selectedIdx >= artworks.length - 1 ? 'hidden' : ''}`} onClick={goToNext} />
                     <img src={selectedImg} alt="Expanded art" className="max-w-full max-h-full z-10" />
-                </div>
-            )}
-             <div className={`transition-opacity duration-500 ${selectedImg ? 'opacity-50' : 'opacity-100'}`}>
-                {/* Your NavBar component should be here */}
-                <div className="container mx-auto p-10">
-                </div>
             </div>
+            )}
         </div>
     );
 };
