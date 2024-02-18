@@ -7,7 +7,6 @@ import Projects from './Components/Projects/projects';
 import Gallery from './Components/Gallery/paintings';
 import OnlineGallery from './Components/Online/onlineart';
 
-
 function App() {
   return (
     <HashRouter>
