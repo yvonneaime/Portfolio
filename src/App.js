@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Projects from './Components/Projects/projects';
 import Gallery from './Components/Gallery/paintings';
 import OnlineGallery from './Components/Online/onlineart';
+//import Mockups from './Components/Mockups/mockup';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<><NavBar></NavBar><About /></>} />
         <Route path="/gallery" element={<><NavBar></NavBar><Gallery /></>} />
         <Route path="/onlineart" element={<><NavBar></NavBar><OnlineGallery /></>} />
+
       </Routes>
     </HashRouter>
   );

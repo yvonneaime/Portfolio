@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const projectSections = [
-    // (Projects) UI/UX Design Section 
+    // (Projects) UI/UX Design Section
     {
         category: "UI/UX Design",
         projects: [
@@ -19,7 +19,7 @@ const projectSections = [
             // ... more projects
         ],
     },
-    // (Projects) Graphic Design & Art Section 
+    // (Projects) Graphic Design & Art Section
     {
         category: "Graphic Design & Art",
         projects: [
@@ -35,7 +35,7 @@ const projectSections = [
             },
         ],
     },
-    // (Projects) Programming Section 
+    // (Projects) Programming Section
     {
         category: "Programming",
         projects: [
