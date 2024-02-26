@@ -1,0 +1,37 @@
+.mockup-container {
+    width: 250px; /* Adjust based on your preference */
+}
+
+.iphone-display {
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.iphone-display::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 60%;
+    height: 5px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.mockup-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    text-align: left;
+    font-size: 1rem; /* Adjust based on your preference */
+}
+

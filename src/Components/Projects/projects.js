@@ -80,12 +80,19 @@ const Projects = () => {
                                 </Link>
                                  ) : (section.category === "Graphic Design & Art" && project.title === "Digital Works") ? (
                                     <Link to="/onlineart">
-                                        {/* Thumbnail content */}
                                         <div className="w-full h-48 bg-gray-200 flex justify-center items-center overflow-hidden">
                                         <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
                                         </div>
                                     </Link>
-                                ) : (
+                                ) :
+                                (section.category === "UI/UX Design" && project.title === "Mockups") ? (
+                                    <Link to="/mockups">
+                                        <div className="w-full h-48 bg-gray-200 flex justify-center items-center overflow-hidden">
+                                        <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
+                                        </div>
+                                    </Link>
+                                ) 
+                                : (
                                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                                     <div className="w-full h-48 bg-gray-200 flex justify-center items-center overflow-hidden">
                                         <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
