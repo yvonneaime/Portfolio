@@ -1,37 +1,87 @@
-.mockup-container {
-    width: 250px; /* Adjust based on your preference */
+/* mockups.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;300&display=swap');
+
+
+.whole-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Other styles already applied remain unchanged */
+    margin: auto;
+    padding: 10px 20px;
+}
+.container {
+    max-width: 1050px;
+    padding: 50px;
 }
 
-.iphone-display {
-    background-color: white;
-    border-radius: 25px;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
+
+.mockup-container {
+    border-radius: 12px;
     align-items: center;
     overflow: hidden;
-    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 1%;
+}
+.mock-title-container {
+    display: flex; /* Aligns icon and title horizontally */
+    align-items: center; /* Centers icon and title vertically relative to each other */
+    gap: 8px; /* Adjusts space between icon and title */
 }
 
-.iphone-display::before {
-    content: "";
-    position: absolute;
-    top: 10px;
-    width: 60%;
-    height: 5px;
-    background-color: #333;
-    border-radius: 10px;
+.circle-icon {
+    color: orange; /* Set the color of your icon */
+    padding:10px;
+}
+
+
+.display {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
 .mockup-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover; /* This will cover the whole area without stretching the image */
 }
 
 .description {
-    text-align: left;
-    font-size: 1rem; /* Adjust based on your preference */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+/* Mock Up Titles */
+.mock-title {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.view-project-btn {
+    color: blue;
+    border-radius: 10px;
+    text-decoration: none; /* remove underline from links */
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+
+.view-project-btn:hover {
+    background-color: #e64a19; /* slightly darker on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 900px) {
+    .mockup-container {
+        width: 100%;
+    }
 }
 

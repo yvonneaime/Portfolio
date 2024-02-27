@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;300&display=swap');
+
 @keyframes gradientFlow {
     0% {
-      background-position: 0% 50%;
+      background-position: 0% 55%;
     }
     50% {
       background-position: 100% 50%;
@@ -8,4 +10,56 @@
     100% {
       background-position: 0% 50%;
     }
+}
+/* NavBar.css */
+
+/* Media query for iPhone screen sizes */
+@media (max-width: 600px) {
+
+  .nav-menu {
+    /* Adjust styles for mobile */
+    transform: translateX(-100%);
+  }
+
+  .nav-menu.open {
+    transform: translateX(0); /* Slide in menu */
+  }
+}
+/* NavBar.css */
+.navigation-links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(37, 50, 55);
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .navigation-links {
+    flex-direction: column;
+    align-items: right;
+    display: flex;
+    padding: 4px;
+    gap: 7px;
+  }
+  .logo-container {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: rgb(221, 197, 241) 0.2s;
+    display: block;
+    width: 100%;
+    text-align: right; 
+  }
 }

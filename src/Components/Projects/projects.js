@@ -99,7 +99,7 @@ const Projects = () => {
                                     </div>
                                 </a>
                             )}
-                            <div className="p-4">
+                            <div className="p-6">
                                 <h3 className="font-bold">{project.title}</h3>
                                 <p className="text-sm text-gray-600">{project.description}</p>
                             </div>
