@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import NavigationLinks from './NavLinks.js';
 
-const Name = "✮⋆ Yvonne Aime";
+const Name = "✮⋆ Yvonne Aime ⋆";
 
 const NavBar = () => {
   return (

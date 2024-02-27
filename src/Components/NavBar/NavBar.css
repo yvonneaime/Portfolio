@@ -50,7 +50,7 @@
   .logo-container {
     width: 100%;
     text-align: left;
-    display: block;
+    display: inline-flex;
   }
   .nav-link {
     padding: 10px;

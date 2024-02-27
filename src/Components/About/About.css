@@ -12,6 +12,9 @@
     text-align: center;
     margin-bottom: 50px;
 }
+.p-10 {
+    padding: 20px;
+}
 
 .profileSection {
     display: flex;
