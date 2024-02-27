@@ -1,22 +1,16 @@
 /* mockups.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
 .whole-container {
-    max-width: 1200px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Other styles already applied remain unchanged */
     margin: auto;
-    padding: 10px 20px;
+    padding: 40px 20px;
+    padding-top: 20px;
 }
-.container {
-    max-width: 1050px;
-    padding: 50px;
-}
-
 
 .mockup-container {
     border-radius: 12px;
@@ -24,7 +18,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 70%;
-    margin: 1%;
+    padding-top: 30px;
 }
 .mock-title-container {
     display: flex; /* Aligns icon and title horizontally */
@@ -34,14 +28,13 @@
 
 .circle-icon {
     color: orange; /* Set the color of your icon */
-    padding:10px;
+    padding: 15px;
 }
-
 
 .display {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 50.25%; /* 16:9 Aspect Ratio */
 }
 
 .mockup-image {
@@ -59,24 +52,65 @@
     font-size: 1rem;
     margin-top: 8px;
 }
+
 /* Mock Up Titles */
 .mock-title {
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.mock-additional-text {
+    font-family: 'Poppins', sans-serif;
+    color: #7a7a7a;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-top: 18px;
 }
 
 .view-project-btn {
     color: blue;
     border-radius: 10px;
-    text-decoration: none; /* remove underline from links */
+    text-decoration: none; /* removes underline from links */
     font-weight: 600;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
-
 
 .view-project-btn:hover {
-    background-color: #e64a19; /* slightly darker on hover */
+    background-color: #f8e404; /* color on hover */
 }
+
+/* Adjustments for the mockup content layout */
+.mockup-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.mockup-description-column {
+    padding-left:20px;
+}
+.mockup-title-column, .mockup-description-column {
+    flex: 1;
+    align-items: center; /* Centers icon and title vertically relative to each other */
+    gap: 8px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 468px) {
+    .mockup-content {
+        flex-direction: column;
+    }
+
+    .mockup-title-column, .mockup-description-column {
+        width: 100%;
+    }
+
+    .view-project-btn {
+        display: block; /* Ensure the button is full-width on smaller screens */
+    }
+}
+
 
 /* Responsive styling */
 @media (max-width: 900px) {
