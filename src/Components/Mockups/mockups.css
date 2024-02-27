@@ -57,7 +57,9 @@
 .mock-title {
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 20px;
+    padding-top: 25px;
+    margin-top: 10px;
+
 }
 
 .mock-additional-text {
@@ -78,6 +80,8 @@
 
 .view-project-btn:hover {
     background-color: #f8e404; /* color on hover */
+    padding:5px;
+    border-radius:15px;
 }
 
 /* Adjustments for the mockup content layout */
@@ -88,7 +92,11 @@
     align-items: flex-start;
 }
 .mockup-description-column {
-    padding-left:20px;
+    padding-left:10px;
+    flex-direction:column;
+    margin-left: 3.5em;
+    margin-right: 1.5em;
+
 }
 .mockup-title-column, .mockup-description-column {
     flex: 1;
@@ -97,20 +105,32 @@
 }
 
 /* Responsive design for smaller screens */
-@media (max-width: 468px) {
+@media (max-width: 420px) {
     .mockup-content {
         flex-direction: column;
     }
 
     .mockup-title-column, .mockup-description-column {
-        width: 100%;
+        width: 90%;
     }
 
     .view-project-btn {
         display: block; /* Ensure the button is full-width on smaller screens */
     }
 }
+@media (max-width: 468px) {
+    .mockup-content {
+        flex-direction: column;
+    }
 
+    .mockup-title-column, .mockup-description-column {
+        width: 90%;
+    }
+
+    .view-project-btn {
+        display: block; /* Ensure the button is full-width on smaller screens */
+    }
+}
 
 /* Responsive styling */
 @media (max-width: 900px) {
