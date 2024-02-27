@@ -21,8 +21,8 @@ const Bio = () => {
           </div>
   
           <div className="text-xl mt-4 md:mt-0">
-            <h1 className="text-6xl font-bold mb-6">Hi, I'm Yvonne 👋</h1>
-            <p className="mb-4">I'm a UI/UX Designer with over two years experience conceptualizing and crafting digital products, helping businesses and non-profits expand their capacity for impact 🚀</p>
+            <h1 className="text-6xl font-bold mb-6">Hi, I'm Yvonne 👋🏾</h1>
+            <p className="mb-4">I'm a UX/UI Designer with over two years experience conceptualizing and crafting digital products, helping businesses and non-profits expand their capacity for impact 🚀</p>
             <p className="mb-4"> 🎓</p>
             <p>Let's talk design!</p>
           </div>
