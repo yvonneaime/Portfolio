@@ -8,7 +8,7 @@ const mockup_obj = [
     {
         title: "Split",
         additionalText: "MARKETING WEBSITE REDESIGN",
-        imageUrl: "/split01.png",
+        imageUrl: "/Split.svg",
         description: "Innovative bill splitting app designed to streamline the process of sharing expenses among friends, family, or colleagues.",
         url: "https://xd.adobe.com/view/440c1ef8-8193-46e7-a142-fe147fac8b12-115f/?fullscreen",
         shape: "circle"
@@ -18,7 +18,7 @@ const mockup_obj = [
         additionalText: "WEBSITE DESIGN",
         imageUrl: "/Homepage.svg",
         description: "A website concept that allows students to highlight their entrepreneurial endeavors.",
-        url: "https://xd.adobe.com/view/440c1ef8-8193-46e7-a142-fe147fac8b12-115f/?fullscreen",
+        url: "https://www.figma.com/proto/CDdfABMEd5LByQUvv2CarP/DIG4104%3A-High-Fidelity?type=design&node-id=1-23&t=7cJeuRpqaPKOVAob-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=263%3A427&show-proto-sidebar=1&mode=design",
         shape: "square"
     }
 ];

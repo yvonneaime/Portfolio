@@ -40,7 +40,7 @@
 .display {
     position: relative;
     width: 100%;
-    padding-top: 50.25%; /* 16:9 Aspect Ratio */
+    padding-top: 54.25%; /* 16:9 Aspect Ratio */
 }
 
 .mockup-image {
@@ -115,22 +115,38 @@
     .mockup-content {
         flex-direction: column;
     }
-
-    .mockup-title-column, .mockup-description-column {
+    .mockup-container {
+        display:90%;
+    }
+    .mockup-title-column {
         width: 90%;
     }
-
+    .mockup-description-column{
+        padding-left: 20px;
+        width: 85%;
+    }
+    .display {
+       padding-top: 60.25%;
+    }
     .view-project-btn {
-        display: block; /* Ensure the button is full-width on smaller screens */
+        display: flex; /* Ensure the button is full-width on smaller screens */
     }
 }
 @media (max-width: 468px) {
+    .mockup-container {
+        display:100%;
+    }
+
     .mockup-content {
         flex-direction: column;
     }
 
-    .mockup-title-column, .mockup-description-column {
+    .mockup-title-column {
         width: 90%;
+    }
+    .mockup-description-column{
+        padding-left: 20px;
+        width: 85%;
     }
 
     .view-project-btn {
