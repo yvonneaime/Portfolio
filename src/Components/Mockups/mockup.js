@@ -7,7 +7,7 @@ import { faCircle, faSquare, faArrowRight } from '@fortawesome/free-solid-svg-ic
 const mockup_obj = [
     {
         title: "Split",
-        additionalText: "MARKETING WEBSITE REDESIGN",
+        additionalText: "MARKETING APP REDESIGN",
         imageUrl: "/Split.svg",
         description: "Innovative bill splitting app designed to streamline the process of sharing expenses among friends, family, or colleagues.",
         url: "https://xd.adobe.com/view/440c1ef8-8193-46e7-a142-fe147fac8b12-115f/?fullscreen",

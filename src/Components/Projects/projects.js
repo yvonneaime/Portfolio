@@ -37,7 +37,7 @@ const projectSections = [
     },
     // (Projects) Programming Section
     {
-        category: "Programming",
+        category: "Software & Development",
         projects: [
             {
                 title: "Ruby's Challenge",
