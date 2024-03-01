@@ -16,7 +16,7 @@ const mockup_obj = [
     {
         title: "StudentBiz",
         additionalText: "WEBSITE DESIGN",
-        imageUrl: "/Homepage.svg",
+        imageUrl: "/StudentBiz.svg",
         description: "A website concept that allows students to highlight their entrepreneurial endeavors.",
         url: "https://www.figma.com/proto/CDdfABMEd5LByQUvv2CarP/DIG4104%3A-High-Fidelity?type=design&node-id=1-23&t=7cJeuRpqaPKOVAob-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=263%3A427&show-proto-sidebar=1&mode=design",
         shape: "square"
