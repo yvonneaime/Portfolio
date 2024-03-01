@@ -24,7 +24,7 @@ const mockup_obj = [
     {
         title: "Apple Music",
         additionalText: "MOBILE APP REDESIGN",
-        imageUrl: "/MusicApp.svg",
+        imageUrl: "/placeholder.jpeg",
         description: "Navigating through your favorite genres, artists, and playlists is now smoother and more intuitive than ever before.",
         url: "https://xd.adobe.com/view/440c1ef8-8193-46e7-a142-fe147fac8b12-115f/?fullscreen",
         shape: "shapes"
