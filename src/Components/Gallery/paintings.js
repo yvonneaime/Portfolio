@@ -65,7 +65,7 @@ const Gallery = () => {
 
     return (
         <div className="container mx-auto p-10">
-            <h1 className="p-2 text-5xl font-bold text-center mb-8">Gallery</h1>
+            <h1 className="p-8 text-5xl font-bold text-center mb-8">Gallery</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {artworks.map((art, index) => (
                     <div key={index} className="shadow-lg rounded-lg overflow-hidden bg-white cursor-pointer">

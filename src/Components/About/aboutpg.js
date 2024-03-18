@@ -5,7 +5,7 @@ import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 const About = () => {
     return (
         <div className="p-10">
-            <h1 className=" p-2 text-5xl font-bold text-center mb-12">About Me</h1>
+            <h1 className=" p-8 text-5xl font-bold text-center mb-12">About Me</h1>
             <div className="aboutContainer flex flex-col md:flex-row p-4 mb-8">
                 <img src="/aboutprofile.jpg" alt="Profile Image" className="profileImage" />
                 <div className="profileText">

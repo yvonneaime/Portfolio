@@ -34,7 +34,7 @@ const mockup_obj = [
 const Mockups = () => {
     return (
         <div className="whole-container mx-auto px-10 py-20">
-        <h1 className="p-4 text-5xl font-bold text-center mb-12">Mockups</h1>
+        <h1 className="p-8 text-5xl font-bold text-center mb-12">Mockups</h1>
         {mockup_obj.map((mockup, index) => (
             <div key={index} className="mockup-container w-full my-6">
                 <div className="mockup-content flex justify-between items-start p-4">

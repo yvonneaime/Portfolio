@@ -65,7 +65,7 @@ const projectSections = [
 const Projects = () => {
     return (
         <div className="container mx-auto p-10">
-        <h1 className="p-2 text-5xl font-bold text-center mb-8">Projects</h1>
+        <h1 className="p-8 text-5xl font-bold text-center mb-8">Projects</h1>
         {projectSections.map((section, sectionIdx) => (
             <div key={sectionIdx}>
                 <h2 className="p-4 text-3xl font-bold mb-4">{section.category}</h2>
