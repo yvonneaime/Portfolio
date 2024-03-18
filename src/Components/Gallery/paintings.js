@@ -24,6 +24,11 @@ const artworks = [
         imageUrl: "/kiss4.jpg",
         description: "Acrylic on canvas"
     },
+    {
+        title: "CrossFire",
+        imageUrl: "/cross.png",
+        description: "Acrylic on canvas"
+    },
 ];
 
 const Gallery = () => {

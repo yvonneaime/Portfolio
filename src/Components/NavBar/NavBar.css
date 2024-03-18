@@ -25,10 +25,11 @@
     transform: translateX(0); /* Slide in menu */
   }
 }
+
 /* NavBar.css */
 .navigation-links {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   padding: 25px;
   gap: 20px;
