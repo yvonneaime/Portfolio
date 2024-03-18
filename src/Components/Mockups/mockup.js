@@ -26,7 +26,7 @@ const mockup_obj = [
         additionalText: "MOBILE APP REDESIGN",
         imageUrl: "/placeholder.jpeg",
         description: "Navigating through your favorite genres, artists, and playlists is now smoother and more intuitive than ever before.",
-        url: "https://xd.adobe.com/view/440c1ef8-8193-46e7-a142-fe147fac8b12-115f/?fullscreen",
+        url: "https://www.figma.com/proto/UecmYIfEakGsRZsHVT6Hwl/MusicApp?type=design&node-id=4-310&t=4ZWMkjny335cqF9j-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
         shape: "shapes"
     }
 ];
