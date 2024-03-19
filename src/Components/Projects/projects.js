@@ -16,7 +16,6 @@ const projectSections = [
                 description: "Marketing website - UI/UX - Visuals",
                 imageUrl: "/casestudythumb.png",
             },
-            // ... more projects
         ],
     },
     // (Projects) Graphic Design & Art Section
@@ -87,6 +86,13 @@ const Projects = () => {
                                 ) :
                                 (section.category === "UI/UX Design" && project.title === "Mockups") ? (
                                     <Link to="/mockups">
+                                        <div className="w-full h-48 bg-gray-200 flex justify-center items-center overflow-hidden">
+                                        <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
+                                        </div>
+                                    </Link>
+                                ) :
+                                (section.category === "UI/UX Design" && project.title === "Case Studies") ? (
+                                    <Link to="/casestudy">
                                         <div className="w-full h-48 bg-gray-200 flex justify-center items-center overflow-hidden">
                                         <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
                                         </div>

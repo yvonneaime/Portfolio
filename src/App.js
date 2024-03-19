@@ -9,6 +9,8 @@ import Projects from './Components/Projects/projects';
 import Gallery from './Components/Gallery/paintings';
 import OnlineGallery from './Components/Online/onlineart';
 import Mockups from './Components/Mockups/mockup';
+import CaseStudy from './Components/CaseStudy/casestudy';
+
 
 const TRACKING_ID = "G-WBEZKLM3TV"; 
 ReactGA.initialize(TRACKING_ID);
@@ -33,6 +35,7 @@ function App() {
         <Route path="/gallery" element={<><NavBar /><Gallery /></>} />
         <Route path="/onlineart" element={<><NavBar /><OnlineGallery /></>} />
         <Route path="/mockups" element={<><NavBar /><Mockups /></>} />
+        <Route path="/casestudy" element={<><NavBar /><CaseStudy /></>} />
       </Routes>
     </HashRouter>
   );

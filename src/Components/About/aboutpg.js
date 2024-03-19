@@ -20,7 +20,7 @@ const About = () => {
                             me at the cutting edge of design trends and technologies. My background in programming is broad and versatile,
                             encompassing web development with React, game creation using Unity, and proficiency in languages like C, Python,
                             and PHP. This diversity in skills underscores my adaptability and commitment to staying at the forefront of technological
-                            advancement
+                            advancement.
                         </p>
                         <p className="text-xl p-2 mb-4">It’s been an absolute
                             joy and privilege working on the projects I’m passionate about.
