@@ -64,7 +64,7 @@ const About = () => {
                 <div>
                     <h3 className="text-2xl font-bold p-2 mb-6">Resume</h3>
                     <div className="p-2">
-                        <a href="https://drive.google.com/file/d/1llzTslG4RebtWelWAZVzADZkC3Y3M8vB/view?usp=sharing" download className="p-2 bg-blue-500 text-white px-4 py-2 rounded shadow-1g">
+                        <a href="https://drive.google.com/file/d/1Y_x8vMatc85NW8KGSWCFsVne1V5lVufc/view?usp=sharing" download className="p-2 bg-blue-500 text-white px-4 py-2 rounded shadow-1g">
                             Download
                         </a>
                     </div>
